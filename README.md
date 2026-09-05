@@ -4,7 +4,7 @@
 
 Um jogo de estratégia por turnos que mistura a tensão de descoberta do Batalha Naval com a profundidade de construção de personagem de um RPG tático. Cada jogador cria e esconde um esquadrão de 6 personagens num tabuleiro 30×30 — o oponente não vê nada até acertar.
 
-🔗 **[https://jogo-esquadrao-oculto-h52jzyi71-guilherme-dal-evedoves-projects.vercel.app](#)** *(link do deploy)*
+🔗 **[https://jogo-esquadrao-oculto.vercel.app/](#)** *(link do deploy)*
 
 ---
 
