@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-display);
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0 0 4px 0;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--text-dim);
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--amber);
+  line-height: 1;
+}
+
+.bg-grid-subtle {
+  background-image:
+    linear-gradient(rgba(126, 147, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(126, 147, 184, 0.06) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.glow-teal {
+  box-shadow: 0 0 40px var(--glow-teal);
+}
+
+input[type='number'],
+input[type='text'],
+select {
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+input[type='number'] {
+  width: 64px;
+}
+
+input[type='text'] {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+.btn {
+  background: var(--teal);
+  color: #04241d;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+}
+
+.btn:hover {
+  filter: brightness(1.08);
+}
+
+.btn:disabled {
+  background: var(--line);
+  color: var(--text-dim);
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line);
+}
+
+.btn.small-btn {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.remaining {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-top: 4px;
+}
+
+.remaining b {
+  color: var(--teal);
+}
+
+.center {
+  text-align: center;
+}
